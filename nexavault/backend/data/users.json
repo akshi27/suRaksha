@@ -1,0 +1,44 @@
+[
+  {
+    "id": "user_001",
+    "email": "arunakshi27@gmail.com",
+    "password": "password",
+    "name": "Akshithaa",
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "user_002",
+    "email": "dillen@nexavault.com",
+    "password": "password",
+    "name": "Dillen",
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "user_003",
+    "email": "bala@nexavault.com",
+    "password": "password",
+    "name": "Balasubramaniam",
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "user_004",
+    "email": "barath@nexavault.com",
+    "password": "password",
+    "name": "Barath",
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "user_005",
+    "email": "balaji@nexavault.com",
+    "password": "password",
+    "name": "Balaji",
+    "createdAt": "2024-01-01T00:00:00Z"
+  },
+  {
+    "id": "user_006",
+    "email": "demo@nexavault.com",
+    "password": "password",
+    "name": "Demo User",
+    "createdAt": "2024-01-01T00:00:00Z"
+  }
+]

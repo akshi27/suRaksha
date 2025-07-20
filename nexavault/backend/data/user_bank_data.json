@@ -1,0 +1,141 @@
+{
+  "user_001": {
+    "name": "Akshithaa",
+    "email": "arunakshi27@gmail.com",
+    "salary": 85000,
+    "creditScore": 750,
+    "accountBalance": 125000,
+    "profession": "Software Engineer",
+    "age": 28,
+    "savingsBracket": "₹5L-8L",
+    "accountNumber": "1234567890",
+    "ifscCode": "HDFC0001234",
+    "emiHistory": [
+      {
+        "lender": "HDFC Bank",
+        "amount": 25000,
+        "tenure": 36,
+        "remainingMonths": 18,
+        "status": "active"
+      },
+      {
+        "lender": "Bajaj Finserv",
+        "amount": 15000,
+        "tenure": 24,
+        "remainingMonths": 8,
+        "status": "active"
+      }
+    ],
+    "transactionHistory": 150,
+    "loanHistory": 2,
+    "investmentPortfolio": {
+      "mutualFunds": 45000,
+      "stocks": 30000,
+      "fixedDeposits": 80000
+    }
+  },
+  "user_002": {
+    "name": "Dillen",
+    "email": "dillen@nexavault.com",
+    "salary": 65000,
+    "creditScore": 720,
+    "accountBalance": 85000,
+    "profession": "Marketing Manager",
+    "age": 32,
+    "savingsBracket": "₹3L-5L",
+    "accountNumber": "0987654321",
+    "ifscCode": "SBI0001234",
+    "emiHistory": [
+      {
+        "lender": "SBI",
+        "amount": 20000,
+        "tenure": 24,
+        "remainingMonths": 12,
+        "status": "active"
+      }
+    ],
+    "transactionHistory": 120,
+    "loanHistory": 1,
+    "investmentPortfolio": {
+      "mutualFunds": 25000,
+      "stocks": 15000,
+      "fixedDeposits": 50000
+    }
+  },
+  "user_003": {
+    "name": "Balasubramaniam",
+    "email": "bala@nexavault.com",
+    "salary": 95000,
+    "creditScore": 780,
+    "accountBalance": 180000,
+    "profession": "Data Scientist",
+    "age": 30,
+    "savingsBracket": "₹8L-12L",
+    "accountNumber": "1122334455",
+    "ifscCode": "ICICI0001234",
+    "emiHistory": [],
+    "transactionHistory": 200,
+    "loanHistory": 0,
+    "investmentPortfolio": {
+      "mutualFunds": 75000,
+      "stocks": 60000,
+      "fixedDeposits": 120000
+    }
+  },
+  "user_004": {
+    "name": "Barath",
+    "email": "barath@nexavault.com",
+    "salary": 78000,
+    "creditScore": 735,
+    "accountBalance": 105000,
+    "profession": "Product Manager",
+    "age": 29,
+    "savingsBracket": "₹4L-6L",
+    "accountNumber": "2233445566",
+    "ifscCode": "AXIS0009876",
+    "emiHistory": [
+      {
+        "lender": "Axis Bank",
+        "amount": 30000,
+        "tenure": 18,
+        "remainingMonths": 6,
+        "status": "active"
+      }
+    ],
+    "transactionHistory": 135,
+    "loanHistory": 1,
+    "investmentPortfolio": {
+      "mutualFunds": 40000,
+      "stocks": 20000,
+      "fixedDeposits": 90000
+    }
+  },
+  "user_006": {
+    "name": "Demo User",
+    "email": "demo@nexavault.com",
+    "salary": 72000,
+    "creditScore": 765,
+    "accountBalance": 98000,
+    "profession": "UX Designer",
+    "age": 27,
+    "savingsBracket": "₹4L-6L",
+    "accountNumber": "6677889900",
+    "ifscCode": "KOTAK0005566",
+    "emiHistory": [
+      {
+        "lender": "Kotak Mahindra",
+        "amount": 22000,
+        "tenure": 24,
+        "remainingMonths": 10,
+        "status": "active"
+      }
+    ],
+    "transactionHistory": 145,
+    "loanHistory": 1,
+    "investmentPortfolio": {
+      "mutualFunds": 30000,
+      "stocks": 25000,
+      "fixedDeposits": 70000
+    }
+  }
+}

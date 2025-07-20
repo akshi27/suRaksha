@@ -1,0 +1,82 @@
+[
+  {
+    "id": "cap_lendease_001",
+    "userId": "user_001",
+    "serviceName": "LendEase",
+    "serviceId": "service_lendease_001",
+    "approvedFields": [
+      "salary",
+      "creditScore"
+    ],
+    "tokenizedData": {
+      "salary": "tok_salary_abc123",
+      "creditScore": "tok_credit_def456"
+    },
+    "queryLimit": 10,
+    "queriesLeft": 0,
+    "status": "suspended",
+    "createdAt": "2024-01-16T15:30:00Z",
+    "expiryDate": "2024-02-15T15:30:00Z",
+    "lastQueryAt": "2024-01-20T13:05:20Z",
+    "suspendedAt": "2024-01-20T13:10:00Z",
+    "suspensionReason": "Anomalous query pattern detected",
+    "locations": [
+      "San Francisco",
+      "Toronto",
+      "Dubai",
+      "London",
+      "Sydney"
+    ]
+  },
+  {
+    "id": "cap_paysecurex_001",
+    "userId": "user_001",
+    "serviceName": "PaySecureX",
+    "serviceId": "service_paysecurex_001",
+    "approvedFields": [
+      "salary",
+      "creditScore",
+      "emiHistory"
+    ],
+    "tokenizedData": {
+      "salary": "tok_salary_xyz789",
+      "creditScore": "tok_credit_uvw012",
+      "emiHistory": "tok_emi_rst345"
+    },
+    "queryLimit": 10,
+    "queriesLeft": 7,
+    "status": "active",
+    "createdAt": "2024-01-18T10:12:45Z",
+    "expiryDate": "2024-02-17T10:12:45Z",
+    "lastQueryAt": "2024-01-20T10:20:12Z",
+    "locations": [
+      "Bangalore",
+      "Hyderabad",
+      "Chennai"
+    ]
+  },
+  {
+    "id": "cap_finbridgeai_001",
+    "userId": "user_001",
+    "serviceName": "FinBridgeAI",
+    "serviceId": "service_finbridgeai_001",
+    "approvedFields": [
+      "creditScore",
+      "savingsBracket"
+    ],
+    "tokenizedData": {
+      "creditScore": "tok_credit_mno678",
+      "savingsBracket": "tok_savings_pqr901"
+    },
+    "queryLimit": 10,
+    "queriesLeft": 8,
+    "status": "active",
+    "createdAt": "2024-01-19T13:45:10Z",
+    "expiryDate": "2024-02-18T13:45:10Z",
+    "lastQueryAt": "2024-01-20T13:47:21Z",
+    "locations": [
+      "London",
+      "Berlin"
+    ]
+  }
+]

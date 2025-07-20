@@ -1,0 +1,92 @@
+[
+  {
+    "id": "log_001",
+    "capsuleId": "cap_paysecurex_001",
+    "userId": "user_001",
+    "serviceName": "PaySecureX",
+    "question": "Check user income",
+    "response": "Between ₹80k-₹95k",
+    "timestamp": "2024-01-20T10:12:45Z",
+    "location": "Bangalore"
+  },
+  {
+    "id": "log_002",
+    "capsuleId": "cap_paysecurex_001",
+    "userId": "user_001",
+    "serviceName": "PaySecureX",
+    "question": "Evaluate risk profile",
+    "response": "Moderate risk appetite",
+    "timestamp": "2024-01-20T10:18:03Z",
+    "location": "Hyderabad"
+  },
+  {
+    "id": "log_003",
+    "capsuleId": "cap_paysecurex_001",
+    "userId": "user_001",
+    "serviceName": "PaySecureX",
+    "question": "Stable salary?",
+    "response": "Yes, 12-month consistency",
+    "timestamp": "2024-01-20T10:20:12Z",
+    "location": "Chennai"
+  },
+  {
+    "id": "log_004",
+    "capsuleId": "cap_lendease_001",
+    "userId": "user_001",
+    "serviceName": "LendEase",
+    "question": "What is user_123's name?",
+    "response": "Sorry, you don't have access to that",
+    "timestamp": "2024-01-20T05:30:01Z",
+    "location": "San Francisco"
+  },
+  {
+    "id": "log_005",
+    "capsuleId": "cap_lendease_001",
+    "userId": "user_001",
+    "serviceName": "LendEase",
+    "question": "Account Number?",
+    "response": "Sorry, you don't have access to that",
+    "timestamp": "2024-01-20T05:33:12Z",
+    "location": "Toronto"
+  },
+  {
+    "id": "log_006",
+    "capsuleId": "cap_lendease_001",
+    "userId": "user_001",
+    "serviceName": "LendEase",
+    "question": "What is this user's salary?",
+    "response": "Sorry, I can't say the exact figure, but the ideal salary bracket would be ₹75k-₹95k per month.",
+    "timestamp": "2024-01-20T05:35:02Z",
+    "location": "Dubai"
+  },
+  {
+    "id": "log_007",
+    "capsuleId": "cap_lendease_001",
+    "userId": "user_001",
+    "serviceName": "LendEase",
+    "question": "User's IFSC Code?",
+    "response": "Sorry, you don't have access to that",
+    "timestamp": "2024-01-20T13:05:20Z",
+    "location": "London"
+  },
+  {
+    "id": "log_008",
+    "capsuleId": "cap_finbridgeai_001",
+    "userId": "user_001",
+    "serviceName": "FinBridgeAI",
+    "question": "Qualify for equity?",
+    "response": "No, moderate risk",
+    "timestamp": "2024-01-20T13:45:10Z",
+    "location": "London"
+  },
+  {
+    "id": "log_009",
+    "capsuleId": "cap_finbridgeai_001",
+    "userId": "user_001",
+    "serviceName": "FinBridgeAI",
+    "question": "Savings bracket",
+    "response": "₹5L-8L",
+    "timestamp": "2024-01-20T13:47:21Z",
+    "location": "Berlin"
+  }
+]

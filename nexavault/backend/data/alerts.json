@@ -1,0 +1,29 @@
+[
+  {
+    "id": "alert_001",
+    "timestamp": "{timestamp}",
+    "type": "suspicious-activity",
+    "message": "Capsule access for {service name} has been suspended due to multiple rapid queries from different locations.",
+    "capsuleId": "{capsuleId}",
+    "service": "{service name}",
+    "userId": "{userId}"
+  },
+  {
+    "id": "alert_002",
+    "timestamp": "{timestamp}",
+    "type": "capsule-revoked",
+    "message": "User manually revoked access for {service name}.",
+    "capsuleId": "{capsuleId}",
+    "service": "{service name}",
+    "userId": "{userId}"
+  },
+  {
+    "id": "alert_003",
+    "timestamp": "{timestamp}",
+    "type": "query-limit-exceeded",
+    "message": "Query limit exceeded for {service name}'s capsule.",
+    "capsuleId": "{capsuleId}",
+    "service": "{service name}",
+    "userId": "{userId}"
+  }
+]
