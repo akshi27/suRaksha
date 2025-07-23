@@ -24,8 +24,6 @@ function isRangeBasedField(query: string): boolean {
   return rangeAnswerableFields.some(f => lowered.includes(f));
 }
 
-console.log('📦 Prompt sent to Groq:\n', prompt);
-
 export async function handleCapsuleLLMQuery({
   query,
   useCase,
@@ -64,6 +62,8 @@ Your job is to answer questions using the following customer dataset:
 ${displayData.map(d => JSON.stringify(d)).join('\n')}
 
 User query: ${query}`;
+
+console.log('📦 Prompt sent to Groq:\n', prompt);
 
   const res = await fetch('https://api.groq.com/openai/v1/chat/completions', {
     method: 'POST',

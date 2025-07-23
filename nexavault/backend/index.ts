@@ -13,6 +13,12 @@ import alertRoutes from './routes/alerts';
 import capsuleQueryHandler from './routes/capsuleQuery';
 
 import { startAnomalyDetection } from './services/anomalyDetection';
+// Add this import at the top
+import generateQueryOtpRoute from './routes/api/generateQueryOtp';
+import secureDownloadRoute from './routes/secureDownload';
+import secureAccessRoutes from './routes/secureAccess';
+import filterParseRoute from './routes/api/filterParse';
+import secureRoutes from './routes/secure'; // Adjust path as needed
 
 dotenv.config();
 
@@ -42,6 +48,13 @@ app.use('/scripts', express.static('public/scripts'));
 app.get('/api/health', (req, res) => {
   res.status(200).json({ status: 'OK', message: '✅ Nexavault API is running' });
 });
+
+app.use('/api', generateQueryOtpRoute);
+app.use('/api/secure', secureDownloadRoute);
+app.use('/api/secure', secureAccessRoutes);
+app.use('/api/filter/parse', filterParseRoute);
+app.use('/api/secure', secureRoutes);
+
 
 // ✅ Server start
 app.listen(PORT, () => {

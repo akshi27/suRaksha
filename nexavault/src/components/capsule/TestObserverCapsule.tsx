@@ -738,10 +738,11 @@ const handleQuerySubmit = async () => {
     return null;
   };
 
-  const handleVerify = () => {
-    setFaceVerified(true);
-    setStatus('✅ Face verified! Get ready to explore your customer data with confidence! I\'m here to help! 😉');
-  };
+  const handleVerify = async () => {
+  // Always pretend face is NOT recognized
+  setFaceVerified(false);
+  setStatus('❌ Face not recognised. Try again.');
+};
 
   return (
     <div className="fixed inset-0 z-50 bg-black bg-opacity-60 flex justify-center items-center p-4">

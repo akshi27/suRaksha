@@ -252,7 +252,7 @@ const processQuery = (query: string, service: string, customerData: CustomerReco
           type: 'otp_required',
           fieldKey: confidentialFieldRequiringOtp.key,
           fieldName: confidentialFieldRequiringOtp.name,
-          message: `🔐 Access to "${confidentialFieldRequiringOtp.name}" is super secure! It requires an OTP verification. An OTP has been sent to admin@nexavault.com. Please enter it below.`
+          message: `🔐 Access to "${confidentialFieldRequiringOtp.name}" is super secure! It requires an OTP verification. An OTP has been sent to the admin's email account. Please enter it below.`
       };
   }
   // --- END NEW OTP LOGIC ---
@@ -502,7 +502,7 @@ const processQuery = (query: string, service: string, customerData: CustomerReco
   }
 
   const disclaimerMessage = hasRangeBasedFilter
-    ? 'Note : Filtering for ranges based value happens by checking if the target value (input) in the given range of the field requested. Kindly note that the filtering is not based on the actual raw value.'
+    ? 'Note : Filtering for ranges based value happens by checking if the target value (input) is in the given range of the field requested. Kindly note that the filtering is not based on the actual raw value.'
     : undefined;
 
   return {
@@ -740,7 +740,7 @@ const handleQuerySubmit = async () => {
 
   const handleVerify = () => {
     setFaceVerified(true);
-    setStatus('✅ Face verified! Get ready to explore your customer data with confidence! I\'m here to help! 😉');
+    setStatus('✅ Face verified! ✅ IP Address verified! Get ready to explore your customer data with confidence! I\'m here to help! 😉');
   };
 
   return (
@@ -887,15 +887,16 @@ const handleQuerySubmit = async () => {
             {/* Download Decrypt Script button - needs to be outside the responseLog map loop */}
             {/* ✅ Update: Use per-service decrypt script URL from localStorage */}
             {localStorage.getItem(`decryptFileUrl_${request.service}`) && (
-              <div className="w-full text-center mt-4">
-                <a
-                  href={localStorage.getItem(`decryptFileUrl_${request.service}`) || '#'}
-                  download={`decrypt_${request.service}_${Date.now()}.js`}
-                  className="inline-block bg-green-600 text-white px-3 py-1 rounded hover:bg-green-700 text-xs"
-                >
-                  ⬇️ Download Decrypt Script
-                </a>
-              </div>
+              <div className="w-full flex justify-end mt-4">
+  <a
+    href={localStorage.getItem(`decryptFileUrl_${request.service}`) || '#'}
+    download={`decrypt_${request.service}_${Date.now()}.js`}
+    className="inline-block bg-blue-600 text-white px-3 py-1 rounded hover:bg-blue-700 text-xs"
+  >
+    ⬇️ Download Decrypt Script
+  </a>
+</div>
+
             )}
 
 
@@ -929,7 +930,7 @@ const handleQuerySubmit = async () => {
                 value={query}
                 onChange={(e) => setQuery(e.target.value)}
                 placeholder="Ask about your customers... e.g., 'balance for Ravi Kumar', 'credit score > 750', 'show balance of Ravi, Mohit and Anjali'"
-                className="w-full p-2 border rounded"
+                className="w-full p-2 text-sm border rounded bg-gray-200"
               />
               <button
                 onClick={handleQuerySubmit}

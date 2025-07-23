@@ -133,6 +133,321 @@ export const approvedServices = [
   },
 ];
 
+export const totalapprovedServices = [
+  {
+    service: 'Google Pay',
+    useCase: 'UPI Payment App',
+    status: 'Accepted', // Changed to Accepted for ApprovedPage
+    website: 'https://pay.google.com',
+    thirdPartyName: 'Google LLC',
+    webAccess: true,
+    customers: [
+      {
+        "name": "Ravi Kumar",
+        "email": "ravi.kumar@example.com",
+        "phone": "+91 9876543210",
+        "accountHolderName": "Ravi Kumar",
+        "ifscCode": "HDFC0001234",
+        "bankName": "HDFC Bank",
+        "accountType": "Savings",
+        "transactionReferenceNo": "TRN12345",
+        "accountNumber": "XXXXXXXXXXXX3456",
+        "mobileNumbers(linked)": "+91 XXXXX43210"
+      },
+      {
+        "name": "Priya Singh",
+        "email": "priya.singh@example.com",
+        "phone": "+91 8765432109",
+        "accountHolderName": "Priya Singh",
+        "ifscCode": "ICIC0005678",
+        "bankName": "ICICI Bank",
+        "accountType": "Current",
+        "transactionReferenceNo": "TRN67890",
+        "accountNumber": "XXXXXXXXXXXX4321",
+        "mobileNumbers(linked)": "+91 XXXXX32109"
+      },
+      {
+        "name": "Mohit Sharma",
+        "email": "mohit.shampoo@example.com",
+        "phone": "+91 7654321098",
+        "accountHolderName": "Mohit Sharma",
+        "ifscCode": "AXIS0009012",
+        "bankName": "Axis Bank",
+        "accountType": "Savings",
+        "transactionReferenceNo": "TRN11223",
+        "accountNumber": "XXXXXXXXXXXX3456",
+        "mobileNumbers(linked)": "+91 XXXXX21098"
+      },
+      {
+        "name": "Anjali Gupta",
+        "email": "anjali.gupta@example.com",
+        "phone": "+91 9123456789",
+        "accountHolderName": "Anjali Gupta",
+        "ifscCode": "PNB0001001",
+        "bankName": "PNB Bank",
+        "accountType": "Savings",
+        "transactionReferenceNo": "TRN44556",
+        "accountNumber": "XXXXXXXXXXXX2938",
+        "mobileNumbers(linked)": "+91 XXXXX56789"
+      },
+      {
+        "name": "Deepak Verma",
+        "email": "deepak.verma@example.com",
+        "phone": "+91 9012345678",
+        "accountHolderName": "Deepak Verma",
+        "ifscCode": "SBI0002002",
+        "bankName": "SBI Bank",
+        "accountType": "Current",
+        "transactionReferenceNo": "TRN77889",
+        "accountNumber": "XXXXXXXXXXXX3847",
+        "mobileNumbers(linked)": "+91 XXXXX45678"
+      }
+    ]
+  },
+  {
+    service: 'QuickLoan',
+    useCase: 'Lending App',
+    status: 'Accepted',
+    website: 'https://quickloan.com',
+    webAccess: true,
+    thirdPartyName: 'FinServe Solutions',
+    customers: [
+      {
+        "name": "Suresh Rao",
+        "email": "suresh.rao@example.com",
+        "phone": "+91 9988776655",
+        "fullName": "Suresh Rao",
+        "dateOfBirth": "1985-05-10",
+        "pan": "XXXXXX1234F",
+        "aadhaarNumber": "XXXXXXXX9012",
+        "address": "xxx",
+        "mobileNumbers(linked)": "+91 XXXXX76655",
+        "bankAccountNumber": "XXXXXXXXXXXX7654"
+      },
+      {
+        "name": "Neha Joshi",
+        "email": "neha.joshi@example.com",
+        "phone": "+91 9876543210",
+        "fullName": "Neha Joshi",
+        "dateOfBirth": "1992-11-20",
+        "pan": "XXXXXX5678K",
+        "aadhaarNumber": "XXXXXXXX0123",
+        "address": "xxx",
+        "mobileNumbers(linked)": "+91 XXXXX43210",
+        "bankAccountNumber": "XXXXXXXXXXXX3456"
+      },
+      {
+        "name": "Vijay Kumar",
+        "email": "vijay.kumar@example.com",
+        "phone": "+91 8765432109",
+        "fullName": "Vijay Kumar",
+        "dateOfBirth": "1978-03-15",
+        "pan": "XXXXXX9012L",
+        "aadhaarNumber": "XXXXXXXX1234",
+        "address": "xxx",
+        "mobileNumbers(linked)": "+91 XXXXX32109",
+        "bankAccountNumber": "XXXXXXXXXXXX4567"
+      },
+      {
+        "name": "Kavita Devi",
+        "email": "kavita.devi@example.com",
+        "phone": "+91 7654321098",
+        "fullName": "Kavita Devi",
+        "dateOfBirth": "1995-09-01",
+        "pan": "XXXXXX3456M",
+        "aadhaarNumber": "XXXXXXXX2345",
+        "address": "xxx",
+        "mobileNumbers(linked)": "+91 XXXXX21098",
+        "bankAccountNumber": "XXXXXXXXXXXX5678"
+      },
+      {
+        "name": "Rajesh Khanna",
+        "email": "rajesh.khanna@example.com",
+        "phone": "+91 9123456789",
+        "fullName": "Rajesh Khanna",
+        "dateOfBirth": "1980-01-25",
+        "pan": "XXXXXX7890N",
+        "aadhaarNumber": "XXXXXXXX3456",
+        "address": "xxx",
+        "mobileNumbers(linked)": "+91 XXXXX56789",
+        "bankAccountNumber": "XXXXXXXXXXXX6789"
+      }
+    ]
+  },
+  {
+    service: 'DataBridge AA',
+    useCase: 'Account Aggregator',
+    status: 'Accepted',
+    website: 'https://databridge.co',
+    webAccess: true,
+    thirdPartyName: 'Aggregator Services Ltd.',
+    customers: [
+      {
+        "name": "Anil Kumar",
+        "email": "anil.kumar@example.com",
+        "phone": "+91 7654321098",
+        "consentTimestamp/status": "Accepted",
+        "fiuId": "Not provided in sample",
+        "cif/CustomerId": "CIFXXX",
+        "allLinkedAccountNumbers": "XXX123, XXX456",
+        "accountType(linked)": "Savings"
+      },
+      {
+        "name": "Geeta Devi",
+        "email": "geeta.devi@example.com",
+        "phone": "+91 9123456789",
+        "consentTimestamp/status": "Accepted",
+        "fiuId": "Not provided in sample",
+        "cif/CustomerId": "CIFXXX",
+        "allLinkedAccountNumbers": "XXX789, XXX012",
+        "accountType(linked)": "Current"
+      },
+      {
+        "name": "Sanjay Gupta",
+        "email": "sanjay.gupta@example.com",
+        "phone": "+91 9012345678",
+        "consentTimestamp/status": "Accepted",
+        "fiuId": "Not provided in sample",
+        "cif/CustomerId": "CIFXXX",
+        "allLinkedAccountNumbers": "XXX345, XXX678",
+        "accountType(linked)": "Savings"
+      },
+      {
+        "name": "Priyanka Singh",
+        "email": "priyanka.singh@example.com",
+        "phone": "+91 9876543210",
+        "consentTimestamp/status": "Accepted",
+        "fiuId": "Not provided in sample",
+        "cif/CustomerId": "CIFXXX",
+        "allLinkedAccountNumbers": "XXX901, XXX234",
+        "accountType(linked)": "Current"
+      }
+    ]
+  },
+  {
+    service: 'InvestSmart',
+    useCase: 'Investment Platform',
+    status: 'Accepted',
+    website: 'https://investsmart.net',
+    webAccess: true,
+    thirdPartyName: 'SmartInvestments',
+    customers: [
+      {
+        "name": "Sunil Das",
+        "email": "sunil.das@example.com",
+        "phone": "+91 9870123456",
+        "fullName": "Sunil Das",
+        "pan": "ABCDE1234F",
+        "bankAccountNumber": "1122334455667788",
+        "portfolioHoldings": "AAPL, GOOG",
+        "riskProfileAssessment": "Moderate",
+        "address": "xxx",
+        "mobileNumbers(linked)": "+91 XXXXX23456",
+        "emailIDsLinked": "xxx"
+      },
+      {
+        "name": "Preeti Singh",
+        "email": "preeti.singh@example.com",
+        "phone": "+91 9988776655",
+        "fullName": "Preeti Singh",
+        "pan": "FGHIJ5678K",
+        "bankAccountNumber": "2233445566778899",
+        "portfolioHoldings": "TSLA, MSFT",
+        "riskProfileAssessment": "Aggressive",
+        "address": "xxx",
+        "mobileNumbers(linked)": "+91 XXXXX76655",
+        "emailIDsLinked": "xxx"
+      },
+      {
+        "name": "Gopal Reddy",
+        "email": "gopal.reddy@example.com",
+        "phone": "+91 8765432109",
+        "fullName": "Gopal Reddy",
+        "pan": "KLMNO9012L",
+        "bankAccountNumber": "3344556677889900",
+        "portfolioHoldings": "AMZN, FB",
+        "riskProfileAssessment": "Conservative",
+        "address": "xxx",
+        "mobileNumbers(linked)": "+91 XXXXX32109",
+        "emailIDsLinked": "xxx"
+      },
+      {
+        "name": "Ankita Sharma",
+        "email": "ankita.sharma@example.com",
+        "phone": "+91 7654321098",
+        "fullName": "Ankita Sharma",
+        "pan": "PQRST3456M",
+        "bankAccountNumber": "4455667788990011",
+        "portfolioHoldings": "NFLX, NVDA",
+        "riskProfileAssessment": "Moderate",
+        "address": "xxx",
+        "mobileNumbers(linked)": "+91 XXXXX21098",
+        "emailIDsLinked": "xxx"
+      }
+    ]
+  },
+  {
+    service: 'PaySwift Wallet',
+    useCase: 'Digital Wallet Service',
+    status: 'Accepted',
+    website: 'https://payswift.app',
+    webAccess: true,
+    thirdPartyName: 'SwiftPay Solutions',
+    customers: [
+      {
+        "name": "Varun Sharma",
+        "email": "varun.sharma@example.com",
+        "phone": "+91 9876501234",
+        "mobileNumbers(linked)": "+91 XXXXX01234",
+        "walletId": "WLT001",
+        "transactionTimestamp": "2025-07-01 10:00:00",
+        "linkedBankAccountNumber(masked)": "XXXXXXXXXXXX4444",
+        "upiId": "xxx"
+      },
+      {
+        "name": "Disha Patel",
+        "email": "disha.patel@example.com",
+        "phone": "+91 9765401234",
+        "mobileNumbers(linked)": "+91 XXXXX01234",
+        "walletId": "WLT002",
+        "transactionTimestamp": "2025-07-01 11:00:00",
+        "linkedBankAccountNumber(masked)": "XXXXXXXXXXXX8888",
+        "upiId": "xxx"
+      },
+      {
+        "name": "Karan Singh",
+        "email": "karan.singh@example.com",
+        "phone": "+91 9654301234",
+        "mobileNumbers(linked)": "+91 XXXXX01234",
+        "walletId": "WLT003",
+        "transactionTimestamp": "2025-07-01 12:00:00",
+        "linkedBankAccountNumber(masked)": "XXXXXXXXXXXX2222",
+        "upiId": "xxx"
+      },
+      {
+        "name": "Ritika Gupta",
+        "email": "ritika.gupta@example.com",
+        "phone": "+91 9543201234",
+        "mobileNumbers(linked)": "+91 XXXXX01234",
+        "walletId": "WLT004",
+        "transactionTimestamp": "2025-07-01 13:00:00",
+        "linkedBankAccountNumber(masked)": "XXXXXXXXXXXX6666",
+        "upiId": "xxx"
+      },
+      {
+        "name": "Arjun Kumar",
+        "email": "arjun.kumar@example.com",
+        "phone": "+91 9432101234",
+        "mobileNumbers(linked)": "+91 XXXXX01234",
+        "walletId": "WLT005",
+        "transactionTimestamp": "2025-07-01 14:00:00",
+        "linkedBankAccountNumber(masked)": "XXXXXXXXXXXX0000",
+        "upiId": "xxx"
+      }
+    ]
+  }
+]
+
 const encryptValue = (value: any) => {
   if (typeof value !== 'string') value = String(value);
   return btoa('__SALT__1234__' + value + '__SALT_END__');
@@ -807,10 +1122,19 @@ function RequestedFieldsPanel({ request, onClose, onViewAllCustomers, panelType,
     return age;
   };
 
+let queryOtpVerified = false;
+let remainingQueryAttempts = 0;
+
 const handleRunQuery = async () => {
   if (!query.trim()) {
-    setFilteredTableData(initialNonCapsulizedData); // Reset to initial masked data
+    setFilteredTableData(initialNonCapsulizedData);
     setFilterError(null);
+    return;
+  }
+
+  const userEnteredOtp = prompt("🔐 Enter the password:");
+  if (userEnteredOtp !== '123456') {
+    alert("❌ Invalid password. Query execution cancelled.");
     return;
   }
 
@@ -818,197 +1142,226 @@ const handleRunQuery = async () => {
   setFilterError(null);
 
   try {
-    // Use the original, decrypted customers for filtering logic
     const originalCustomers = customers;
 
-    // Prompt for Groq LLM to extract filter criteria
-    const prompt = `You are an assistant for filtering customer data. Your sole purpose is to extract criteria for filtering rows in a table.
-      You CANNOT perform column selection or projection (i.e., you cannot fulfill requests like "show columns X, Y, Z").
-      If the user's query is NOT about filtering rows, you MUST return an 'error' message.
+    const fieldKeyMap: Record<string, string> = {
+      "dob": "dateOfBirth",
+      "dateofbirth": "dateOfBirth",
+      "age": "age",
+      "name": "name",
+      "email": "email",
+      "mobile": "phone",
+      "phone": "phone",
+      "ifsc": "ifscCode",
+      "ifsc code": "ifscCode",
+      "pan": "pan",
+      "aadhaar": "aadhaar",
+      "aadhar": "aadhaar",
+      "account no": "accountNumber",
+      "acc no": "accountNumber",
+      "balance": "balance",
+      "txn ref": "transactionReferenceNo",
+      "ref no": "transactionReferenceNo"
+    };
 
-      Given the following customer data fields: ${Object.keys(originalCustomers[0] || {}).join(', ')}.
-      The 'dateOfBirth' field is in 'YYYY-MM-DD' format and can be used to derive 'age'.
+    const prompt = `You are an assistant for filtering customer data in a tabular system.
 
-      Analyze the user's query and extract a filter object.
-      The filter object must have a 'type' field which can be 'text', 'numeric', or 'dateRange'.
+Your sole task is to extract valid **row-level filters** from the user's query.
+You are NOT allowed to extract or change which columns are displayed.
 
-      For 'text' and 'numeric' types, include 'field', 'operator', and 'value'.
-      Operators can be '=', '>', '<', '>=', '<=', 'includes'.
-      If the query is about text, use 'includes'.
-      For numeric comparisons, ensure 'value' is a number.
+--- 
+1. ✅ Valid Fields:
+${Object.keys(originalCustomers[0] || {}).join(', ')}
 
-      For 'dateRange' type, include 'field' (e.g., 'dateOfBirth'), and either 'startDate' and 'endDate' (in 'YYYY-MM-DD' format) or 'minAge' and 'maxAge' (numbers).
-      If the query explicitly mentions a year range (e.g., "born in 1990-1996"), convert it to 'startDate' and 'endDate'.
-      If the query refers to age (e.g., "age > 35"), convert it to a numeric filter on 'age'.
+2. ✅ Synonym Handling:
+${Object.entries(fieldKeyMap).map(([k, v]) => `- "${k}" → "${v}"`).join('\n')}
 
-      User query: "${query}"
+3. ✅ Filter Types:
 
-      Return a JSON object like this:
-      {
-        "filter": {
-          "type": "text" | "numeric" | "dateRange",
-          "field": "fieldName",
-          "operator": "=" | ">" | "<" | ">=" | "<=" | "includes", // For text/numeric
-          "value": "someValue" | 123, // For text/numeric
-          "startDate": "YYYY-MM-DD", // For dateRange
-          "endDate": "YYYY-MM-DD",   // For dateRange
-          "minAge": 0,               // For age-based dateRange
-          "maxAge": 100              // For age-based dateRange
-        }
-      }
-      Or if the query is not a row filtering request:
-      {
-        "error": "I can only filter rows based on conditions (e.g., 'show customers older than 30', 'name contains John'). I cannot change which columns are displayed. Please rephrase your query if you want to filter rows."
-      }
-      `;
-
-      const response = await fetch('https://api.groq.com/openai/v1/chat/completions', {
-        method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-          'Authorization': `Bearer ${groqApiKey}`
-        },
-        body: JSON.stringify({
-          model: 'llama3-8b-8192', // Or another Llama model available on Groq
-          messages: [{ role: 'user', content: prompt }],
-          response_format: { type: "json_object" } // Request JSON object response
-        })
-      });
-
-      if (!response.ok) {
-        const errorData = await response.json();
-        throw new Error(`Groq API error: ${response.status} ${response.statusText} - ${errorData.error?.message || 'Unknown error'}`);
-      }
-
-      const result = await response.json();
-
-      if (result.choices && result.choices.length > 0 && result.choices[0].message && result.choices[0].message.content) {
-        const jsonResponse = JSON.parse(result.choices[0].message.content);
-
-        if (jsonResponse.error) {
-          setFilterError(jsonResponse.error);
-          setFilteredTableData(initialNonCapsulizedData); // Show all data on error
-          return;
-        }
-
-        const filter = jsonResponse.filter;
-        if (!filter || !filter.type) {
-          setFilterError('LLM did not return a valid filter structure. Please try rephrasing your query.');
-          setFilteredTableData(initialNonCapsulizedData);
-          return;
-        }
-
-        let newFilteredDecryptedData = originalCustomers; // Start with all decrypted customers
-
-        if (filter.type === 'dateRange') {
-            const { field, startDate, endDate, minAge, maxAge } = filter;
-            if (field !== 'dateOfBirth') { // LLM should return 'dateOfBirth'
-                setFilterError(`Date range filtering is only supported for 'Date of birth' column. LLM returned '${field}'.`);
-                setFilteredTableData(initialNonCapsulizedData);
-                return;
-            }
-
-            newFilteredDecryptedData = originalCustomers.filter((row: any) => {
-                const dobString = row['dateOfBirth']; // Access by actual key
-                if (!dobString) return false;
-
-                const customerDob = new Date(dobString);
-
-                if (startDate && endDate) {
-                    const start = new Date(startDate);
-                    const end = new Date(endDate);
-                    // Set end date to end of day to include all dates within the range
-                    end.setHours(23, 59, 59, 999);
-                    return customerDob >= start && customerDob <= end;
-                } else if (minAge !== undefined || maxAge !== undefined) {
-                    const customerAge = calculateAge(dobString);
-                    let meetsMinAge = true;
-                    let meetsMaxAge = true;
-
-                    if (minAge !== undefined) {
-                        meetsMinAge = customerAge >= minAge;
-                    }
-                    if (maxAge !== undefined) {
-                        meetsMaxAge = customerAge <= maxAge;
-                    }
-                    return meetsMinAge && meetsMaxAge;
-                }
-                return false;
-            });
-        } else if (filter.type === 'numeric' || filter.type === 'text') {
-            const { field, operator, value } = filter;
-            if (!field || !operator || value === undefined) {
-                setFilterError('LLM returned an incomplete numeric/text filter. Please try rephrasing.');
-                setFilteredTableData(initialNonCapsulizedData);
-                return;
-            }
-
-            newFilteredDecryptedData = originalCustomers.filter((row: any) => {
-                let rowValue: any;
-                // Map LLM field name to actual customer object key
-                let actualFieldKey = fieldKeyMap[field] || field.toLowerCase();
-
-                // Special handling for 'age' as it's derived
-                if (field.toLowerCase() === 'age' && row['dateOfBirth']) {
-                    rowValue = calculateAge(row['dateOfBirth']);
-                } else if (row.hasOwnProperty(actualFieldKey)) {
-                    rowValue = row[actualFieldKey];
-                } else {
-                    // If the direct key or mapped key doesn't exist, try a case-insensitive match
-                    const foundKey = Object.keys(row).find(key => key.toLowerCase() === actualFieldKey);
-                    if (foundKey) {
-                        rowValue = row[foundKey];
-                    }
-                }
-
-                if (rowValue === undefined || rowValue === null) {
-                    return false; // Cannot filter if value is missing
-                }
-
-                // Convert to number for numeric comparisons
-                const numericRowValue = Number(rowValue);
-                const numericFilterValue = Number(value);
-
-                switch (operator) {
-                    case '=':
-                        return filter.type === 'numeric' ? numericRowValue === numericFilterValue : String(rowValue).toLowerCase() === String(value).toLowerCase();
-                    case '>':
-                        return filter.type === 'numeric' && numericRowValue > numericFilterValue;
-                    case '<':
-                        return filter.type === 'numeric' && numericRowValue < numericFilterValue;
-                    case '>=':
-                        return filter.type === 'numeric' && numericRowValue >= numericFilterValue;
-                    case '<=':
-                        return filter.type === 'numeric' && numericRowValue <= numericFilterValue;
-                    case 'includes':
-                        return filter.type === 'text' && String(rowValue).toLowerCase().includes(String(value).toLowerCase());
-                    default:
-                        return false;
-                }
-            });
-        } else {
-            setFilterError('Unsupported filter type returned by LLM. Please try again.');
-            setFilteredTableData(initialNonCapsulizedData);
-            return;
-        }
-
-        // After filtering the decrypted data, re-process it through getNonCapsulizedCustomerTableData
-        // to get the masked/encrypted version for display in the table.
-        const finalDisplayedData = getNonCapsulizedCustomerTableData(request, newFilteredDecryptedData);
-        setFilteredTableData(finalDisplayedData);
-
-      } else {
-        setFilterError('Could not get a valid response from the LLM. Please try again.');
-        setFilteredTableData(initialNonCapsulizedData);
-      }
-    } catch (error: any) {
-      console.error('Error filtering data with LLM:', error);
-      setFilterError(`Failed to process query: ${error.message || 'Unknown error'}. Please check your API key or try again.`);
-      setFilteredTableData(initialNonCapsulizedData);
-    } finally {
-      setLoadingFilter(false);
+- Text:
+  Use these operators: includes (default), startsWith, endsWith, equals (=)
+  You can also support multiple values, such as:
+    - "Ravi and Mohit"
+    - "Ravi, Mohit"
+    - "Mohit | Ravi"
+  In such cases, return:
+    {
+      "type": "text",
+      "field": "name",
+      "operator": "includes",
+      "value": ["Ravi", "Mohit"]
     }
-  };
+
+- Numeric:
+  Supported operators: >, <, >=, <=, =
+
+- Age:
+  Convert statements like "age > 30" to:
+    {
+      "type": "dateRange",
+      "field": "dateOfBirth",
+      "minAge": 30
+    }
+
+- Date of Birth (or birth range):
+  If user says "born between 1980 and 1990", convert to:
+    {
+      "type": "dateRange",
+      "field": "dateOfBirth",
+      "startDate": "1980-01-01",
+      "endDate": "1990-12-31"
+    }
+
+4. ✅ Output Format:
+\`\`\`json
+{
+  "filter": {
+    "type": "text" | "numeric" | "dateRange",
+    "field": "fieldName",
+    "operator": "=" | ">" | "<" | ">=" | "<=" | "includes" | "startsWith",
+    "value": string | number | string[]
+    "startDate": "YYYY-MM-DD",
+    "endDate": "YYYY-MM-DD",
+    "minAge": number,
+    "maxAge": number
+  }
+}
+\`\`\`
+
+If it’s not a row-level filter query, return:
+\`\`\`json
+{ "error": "Only filtering queries like 'age > 30' or 'name includes Ravi' are supported." }
+\`\`\`
+
+---  
+User query: "${query}"`;
+
+    const response = await fetch("https://api.groq.com/openai/v1/chat/completions", {
+  method: 'POST',
+  headers: {
+    'Content-Type': 'application/json',
+    'Authorization': `Bearer ${groqApiKey}`
+  },
+  body: JSON.stringify({
+    model: "llama3-8b-8192",
+    messages: [{ role: "user", content: prompt }],
+    response_format: { type: "json_object" }
+  })
+});
+
+const result = await response.json();
+
+if (!result.choices || !result.choices[0].message?.content) {
+  throw new Error("No valid response from Groq.");
+}
+
+const jsonResponse = JSON.parse(result.choices[0].message.content);
+
+if (jsonResponse.error) {
+  setFilterError(jsonResponse.error);
+  setFilteredTableData(initialNonCapsulizedData);
+  return;
+}
+
+const filter = jsonResponse.filter;
+let filtered = [...originalCustomers];
+
+if (filter.type === 'dateRange') {
+  const { startDate, endDate, minAge, maxAge } = filter;
+
+  filtered = filtered.filter(c => {
+    if (!c.dateOfBirth) return false;
+    const dob = new Date(c.dateOfBirth);
+
+    if (startDate && endDate) {
+      const s = new Date(startDate);
+      const e = new Date(endDate);
+      e.setHours(23, 59, 59, 999);
+      return dob >= s && dob <= e;
+    }
+
+    if (minAge !== undefined || maxAge !== undefined) {
+      const today = new Date();
+      let age = today.getFullYear() - dob.getFullYear();
+      const m = today.getMonth() - dob.getMonth();
+      if (m < 0 || (m === 0 && today.getDate() < dob.getDate())) {
+        age--;
+      }
+
+      if (minAge && age < minAge) return false;
+      if (maxAge && age > maxAge) return false;
+      return true;
+    }
+
+    return false;
+  });
+
+} else if (filter.type === 'numeric') {
+  const { field, operator, value } = filter;
+  const actualKey = fieldKeyMap[field.toLowerCase()] || field;
+
+  filtered = filtered.filter(row => {
+    let rowVal: any = row[actualKey];
+
+    if (field.toLowerCase() === 'age' && row.dateOfBirth) {
+      const dob = new Date(row.dateOfBirth);
+      const today = new Date();
+      let age = today.getFullYear() - dob.getFullYear();
+      const m = today.getMonth() - dob.getMonth();
+      if (m < 0 || (m === 0 && today.getDate() < dob.getDate())) {
+        age--;
+      }
+      rowVal = age;
+    }
+
+    if (rowVal === undefined || rowVal === null) return false;
+
+    switch (operator) {
+      case '=': return Number(rowVal) === Number(value);
+      case '>': return Number(rowVal) > Number(value);
+      case '<': return Number(rowVal) < Number(value);
+      case '>=': return Number(rowVal) >= Number(value);
+      case '<=': return Number(rowVal) <= Number(value);
+      default: return false;
+    }
+  });
+
+} else if (filter.type === 'text') {
+  const { field, operator, value } = filter;
+  const actualKey = fieldKeyMap[field.toLowerCase()] || field;
+
+  filtered = filtered.filter(row => {
+    const rowValue = row[actualKey];
+    if (!rowValue) return false;
+
+    if (Array.isArray(value)) {
+      return value.some((v: string) =>
+        String(rowValue).toLowerCase().includes(v.toLowerCase())
+      );
+    } else {
+      return String(rowValue).toLowerCase().includes(String(value).toLowerCase());
+    }
+  });
+} else {
+  setFilterError("❌ Unsupported filter type returned by LLM.");
+  setFilteredTableData(initialNonCapsulizedData);
+  return;
+}
+
+const finalDisplayedData = getNonCapsulizedCustomerTableData(request, filtered);
+setFilteredTableData(finalDisplayedData);
+
+
+    const finalMasked = getNonCapsulizedCustomerTableData(request, filtered);
+    setFilteredTableData(finalMasked);
+  } catch (error: any) {
+    console.error(error);
+    setFilterError(error.message || 'Unexpected error. Please try again.');
+    setFilteredTableData(initialNonCapsulizedData);
+  } finally {
+    setLoadingFilter(false);
+  }
+};
 
   const handleClearQuery = () => {
     setQuery('');
@@ -1019,6 +1372,98 @@ const handleRunQuery = async () => {
 
   const displayedCustomers = customers.slice(0, 5);
   const hasMoreCustomers = customers.length > 5;
+
+let otpAttempts = 0;
+let otpLocked = false;
+
+const handleSecureDownload = async () => {
+  const service = totalapprovedServices[0]; // Or use selectedService logic
+
+  if (!service) {
+    alert('❌ No service selected or available.');
+    return;
+  }
+
+  const encryptedData = service.customers;
+
+  // OTP Lock Logic
+  if (otpLocked) {
+    alert('🔒 OTP verification locked. You cannot try again.');
+    return;
+  }
+
+  while (otpAttempts < 3) {
+    const otp = prompt('🔐 Enter the 6-digit OTP sent to your email:');
+
+    if (otp === '123456') {
+      break; // Valid OTP, exit loop
+    } else {
+      otpAttempts++;
+      alert(`❌ Incorrect OTP! (${otpAttempts}/3)`);
+    }
+
+    if (otpAttempts >= 3) {
+      otpLocked = true;
+      alert('🔒 Too many failed attempts. OTP prompt is now locked permanently.');
+      return;
+    }
+  }
+
+  try {
+    const response = await fetch('http://localhost:3000/api/secure/generate-secure-html', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        serviceName: service.service,
+        encryptedData,
+        password: '123456', // Hardcoded password same as OTP if needed
+      }),
+    });
+
+    if (!response.ok) throw new Error(`Server Error: ${response.status}`);
+
+    const blob = await response.blob();
+    const url = window.URL.createObjectURL(blob);
+
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = `${service.service.replace(/\s+/g, '_')}_secure.html`;
+    document.body.appendChild(a);
+    a.click();
+    document.body.removeChild(a);
+
+    alert(`✅ Downloaded secured HTML for ${service.service}`);
+  } catch (err) {
+    console.error(err);
+    alert('❌ Failed to generate secure file');
+  }
+};
+
+const fetchApprovedServices = async () => {
+  const otp = prompt('🔐 Enter OTP to fetch approved services:');
+
+  try {
+    const res = await fetch('/api/secure/get-approved-services', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ otp }),
+    });
+
+    if (!res.ok) {
+      const { error } = await res.json();
+      alert(error || 'Unknown error');
+      return;
+    }
+
+    const data = await res.json();
+    console.log('✅ Services:', data.services);
+    alert('✅ Approved services fetched successfully. Check console for data.');
+  } catch (err) {
+    alert('❌ Failed to fetch approved services');
+    console.error(err);
+  }
+};
+
 
 
   return (
@@ -1224,22 +1669,17 @@ const handleRunQuery = async () => {
                   <h5 className="text-lg font-semibold mb-3 text-gray-800">Share Data</h5>
                   <div className="space-y-2">
                     <button
-                      className="w-full inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-green-600 hover:bg-green-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-green-500"
-                      onClick={() => console.log('Share via Email')}
-                    >
-                      <i className="fas fa-envelope mr-2"></i> Email
-                    </button>
-                    <button
                       className="w-full inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-purple-600 hover:bg-purple-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-purple-500"
-                      onClick={() => console.log('Share via API')}
+                      onClick={fetchApprovedServices}
                     >
-                      <i className="fas fa-code mr-2"></i> API
+                      <span className="mr-2">🔌</span> API Access
                     </button>
+
                     <button
-                      className="w-full inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-gray-700 bg-gray-200 hover:bg-gray-300 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-gray-500"
-                      onClick={() => console.log('Share via Download CSV')}
+                      onClick={() => handleSecureDownload()}
+                      className="w-full inline-flex items-center justify-center px-4 py-2 border border-transparent text-sm font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700"
                     >
-                      <i className="fas fa-download mr-2"></i> Download CSV
+                      <span className="mr-2">📥</span> Download Secure Data
                     </button>
                   </div>
                 </div>
@@ -1355,7 +1795,6 @@ const ApprovedPage = () => {
                 <th className="py-3 px-4 text-left text-sm font-medium text-gray-600">Third Party</th>
                 <th className="py-3 px-4 text-left text-sm font-medium text-gray-600">Non Capsule</th>
                 <th className="py-3 px-4 text-left text-sm font-medium text-gray-600">Capsule</th>
-                <th className="py-3 px-4 text-left text-sm font-medium text-gray-600">Decrypt Script</th>
                 <th className="py-3 px-4 text-left text-sm font-medium text-gray-600">Actions with Nexon</th>
               </tr>
             </thead>
@@ -1414,17 +1853,6 @@ const ApprovedPage = () => {
                       </div>
                     </td>
                     <td className="py-3 px-4 text-sm">
-                      <div>
-                        <a
-                          href={localStorage.getItem('capsuleDecryptFileUrl') || '#'}
-                          download={`decrypt_${service.service}_${Date.now()}.js`}
-                          className="text-xs text-blue-600 underline hover:text-blue-800"
-                        >
-                          Download Script
-                        </a>
-                      </div>
-                    </td>
-                    <td className="py-3 px-4 text-sm">
                       <button
                         onClick={() => setNexonRequest(service)}
                         className="inline-flex items-center justify-center px-4 py-1 text-xs font-medium rounded-md shadow-sm bg-gray-100 text-gray-600 hover:bg-gray-200"
@@ -1440,15 +1868,7 @@ const ApprovedPage = () => {
         </div>
       </div>
 
-     {selectedService && ( // Add this conditional check
-        <a
-          href={`data:text/json;charset=utf-8,${encodeURIComponent(JSON.stringify(selectedService.encryptedCustomers || []))}`}
-          download={`encrypted_customers_${selectedService?.service || 'service'}.json`}
-          className="text-sm text-blue-600 underline hover:text-blue-800"
-        >
-          Download Encrypted Version
-        </a>
-      )} {/* Close the conditional check */}
+      {/* Close the conditional check */}
 
       {/* Modals */}
       {showDetails && selectedService && (
@@ -1482,9 +1902,9 @@ const ApprovedPage = () => {
           }}
           serviceName={pendingService.service}
           useCase={pendingService.useCase}
-          customers={pendingService.customers}
+          // customers={pendingService.customers}
           requestedFields={pendingService.requestedFields}
-          encryptedCustomers={pendingService.encryptedCustomers} 
+          // encryptedCustomers={pendingService.encryptedCustomers} 
         />
       )}
 
