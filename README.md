@@ -43,16 +43,31 @@ Nexavault is a cybersecurity-first middleware platform that mediates data sharin
 ### ✅ Step 1: Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/nexavault.git
+git clone https://github.com/akshi27/suRaksha.git
+```
+---
 
 ### ✅ Step 2: Install Dependencies and run
-1. Open VScode and open 'nexavault' as a folder
+1. Open VScode and open `nexavault` as a folder
 2. Split terminal
 
 ####
-3. In the left terminal, run 'cd backend'.
-4. In the same split terminal, run 'npx tsx index.ts'
+3. In the left terminal, run `cd backend`. (The final path after running this command should ideally look like `C:\Users\<user's name>\suRaksha\nexavault\backend`)
+4. In the same split terminal, run `npx tsx index.ts`
 
 ####
-5. In the right terminal, run 'cd ..'
-6. In the same split termainl, run 'npx vite'
+5. In the right terminal, run `cd ..` (The final path after running this command should ideally look like `C:\Users\<user's name>\suRaksha\nexavault`)
+6. In the same split terminal, run `npx vite` 
+
+---
+
+## 🛠️ Login Page Credentials
+####
+Email : `arunakshi27@gmail.com`
+Password : `password`
+
+---
+
+## 📝 An Important Note 
+####
+Kindly get your own `Groq api key` (https://console.groq.com/keys) and put in as `groqApiKey` in `C:\Users\<user's name>\suRaksha\nexavault\src\pages\ApprovedPage.tsx` before running the commands
