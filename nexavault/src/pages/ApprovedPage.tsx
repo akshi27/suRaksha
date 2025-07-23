@@ -1073,7 +1073,7 @@ function RequestedFieldsPanel({ request, onClose, onViewAllCustomers, panelType,
   const [filterError, setFilterError] = useState<string | null>(null);
 
   // Placeholder for Groq API Key - REPLACE THIS WITH YOUR ACTUAL GROQ API KEY
-  const groqApiKey = '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'; // <--- IMPORTANT: Replace this placeholder!
+  const groqApiKey = ''; // <--- IMPORTANT: Replace this placeholder!
 
   // Initial non-capsulized data for the current service, always based on the encryptedCustomers
   // This ensures the table initially shows the masked/encrypted view.
